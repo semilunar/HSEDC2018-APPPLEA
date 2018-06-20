@@ -1,3 +1,12 @@
+@font-face{
+
+font-family: 'Agipo';
+src: url('../fonts/Agipo Bold.otf'), url('../fonts/Agipo Regular.otf') format('otf');
+font-weight: normal;
+font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -102,8 +111,8 @@ section {
 }
 
 .right section {
-    margin-left: 80px;
-    margin-top: 330px;
+  margin-left: 120px;
+  margin-top: 245px;
   }
 
 .right-2 section {
@@ -139,8 +148,8 @@ section {
   background-image: url(../images/Mockup.png);
   width: 100%;
   height: 100%;
-  top: 15px;
-  left: 290px;
+  top: -45px;
+  left: 380px;
 }
 
 .mockup-6 {
@@ -316,4 +325,10 @@ line-height: 18px;
 font-size: 16px;
 text-decoration: underline;
 color: #FFFFFF;
+}
+
+canvas {
+position: absolute;
+top:0;
+left:0;
 }
