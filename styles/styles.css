@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Agipo";
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.header-nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  background: #000;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-navItem {
+  margin-right: 60px;
+}
+
+.header-navItem:last-child {
+  margin-right: 0;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  background: black;
+}
+
+
+.logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+  margin: 0 auto;
+  margin-left: -8px;
+}
+
+
+.left {
+  text-align: left;
+}
+
+
+.right {
+  background-color: black;
+}
+
+.right h2 {
+  color: white;
+}
+
+.right p {
+  color: white;
+}
+
+.center {
+  text-align: center;
+  background-color: black;
+}
+
+.center h2, .center p {
+  width: 872px;
+  margin: auto;
+  color: white;
+  margin-top: 28px;
+}
+
+.center h2 {
+  font-size: 44px;
+  line-height: 56px;
+}
+
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.left section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right section {
+    margin-left: 80px;
+    margin-top: 330px;
+  }
+
+.right-2 section {
+  margin-left: 650px;
+  margin-top: 270px;
+}
+
+.right-2 .mockup-4{
+  background-image: url(../images/Mockup2.png);
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: -390px;
+}
+
+.center section {
+  margin-top: 2500px;
+  width: 100%;
+  width: 1440px;
+  height: 80px;
+  background-color: #FCFCFC;
+
+}
+
+.mockup {
+  position: absolute;
+  background-size: cover;
+}
+
+
+
+.mockup-4 {
+  background-image: url(../images/Mockup.png);
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: 290px;
+}
+
+.mockup-6 {
+  background-image: url(../images/Mockup3.png);
+  width: 100%;
+  height: 100%;
+  top: 15px;
+  left: -220px;
+}
+
+.mockup-5 {
+  background-image: url(../images/screens.png);
+  width: 759px;
+  height: 403px;
+  top: 166px;
+  left: 656px;
+}
+
+
+nav {
+  padding: 30px;
+}
+
+.section {
+position: relative;
+width: 100%;
+height: 800px;
+overflow: hidden;
+}
+
+.right, .center {
+    background: black;
+}
+
+.right-2 {
+    background: black;
+  }
+
+
+.textLeft {
+  position: absolute;
+  top: 142px;
+  width: 480px;
+  left: 160px;
+}
+
+.textRight {
+  position: absolute;
+  top: 142px;
+  width: 480px;
+  right: 200px;
+}
+
+
+.cards {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+
+}
+
+.figure-1, .figure-2, .figure-3  {
+  width: 300px;
+  height: 400px;
+  margin-right: 40px;
+}
+
+.cards:last-child {
+  margin-right: 0px;
+}
+
+.figure-1 .text, .figure-2 .text, .figure-3 .text {
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.circle-1 {
+  display: block;
+  border-radius: 50%;
+  background-image: url(../images/c74165b94aa2596b2c983be0a589ed1e.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.circle-2 {
+  display: block;
+  border-radius: 50%;
+  background-image: url(../images/50307a59cf5ff3e5a6854577cf978d8f.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+.circle-3 {
+  display: block;
+  border-radius: 50%;
+  background-image: url(../images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+
+.textCenter {
+position: absolute;
+top: 200px;
+/* width: 763px; */
+text-align: center;
+margin-left: 50%;
+transform: translateX(-50%);
+
+}
+
+
+.start {
+  display: flex;
+  padding: 30px;
+  margin-top: 160px;
+  align-items: center;
+  justify-content: center;
+}
+
+.start h2 {
+  margin: 0 auto;
+  font-size: 30px;
+  display: block;
+}
+
+
+.textCenter nav {
+margin-top: 10px;
+font-size: 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.textCenter nav a{
+display: inline-block;
+margin-top: 16px;
+}
+
+.big {
+width: 186px;
+height: 50px;
+line-height: 49px;
+font-size: 17px;
+}
+
+.blue {
+background-color: white;
+border-color: black;
+color: rgba(0,0,0,.5 );
+}
+
+.small {
+width: 780px;
+height: 18px;
+line-height: 18px;
+font-size: 16px;
+text-decoration: underline;
+color: #FFFFFF;
+}
